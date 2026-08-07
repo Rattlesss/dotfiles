@@ -1,1 +1,6 @@
+# Cool font
 font-family = "JetBrainsMono Nerd Font"
+
+# Remaps Fedora keybinds to match MacOS
+keybind = super+d=new_split:down
+keybind = super+shift+d=new_split:right
