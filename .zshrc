@@ -19,8 +19,8 @@ eval "$(starship init zsh)"
 source <(fzf --zsh)
 eval "$(direnv hook zsh)"
 
-source /home/linuxbrew/.linuxbrew/opt/zsh-autosuggestions/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /home/linuxbrew/.linuxbrew/opt/zsh-syntax-highlighting/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # fun banner on new shell
 fortune -s computers | cowsay -f stegosaurus | lolcat
